@@ -1,5 +1,6 @@
 [window]
 opacity = 0.95
+option_as_alt = "Both"
 
 [font]
 normal = { family = "Mononoki Nerd Font Mono", style = "Regular" }

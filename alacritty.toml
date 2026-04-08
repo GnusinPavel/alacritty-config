@@ -1,5 +1,14 @@
+general.import = [
+  # uncomment the flavour you want below:
+  #"~/.config/alacritty/catppuccin-latte.toml"
+  #~/.config/alacritty/catppuccin-frappe.toml"
+  "~/.config/alacritty/catppuccin-macchiato.toml"
+  # "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
 [window]
 opacity = 0.95
+blur = true
 option_as_alt = "Both"
 
 [font]
@@ -8,9 +17,6 @@ bold = { family = "Mononoki Nerd Font Mono", style = "Bold"}
 italic = { family = "Mononoki Nerd Font Mono", style = "Italic"}
 bold_italic = { family = "Mononoki Nerd Font Mono", style = "Bold Italic"}
 size = 15
-
-[colors]
-primary.foreground = "#00dd00"
 
 [keyboard]
 bindings = [
